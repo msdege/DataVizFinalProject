@@ -1,62 +1,223 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Michael's Webpage</title>
-        <style>
-        	html {
-				margin: 0;
-				padding: 0;
-				height: 100%;
-			}
-			body { 
-				font: 100% "Times New Roman", sans-serif;
-				line-height: 1.8em;
-				color: #000000; 
-				height:100%;
-				background-color: #aeaeae;
-			}
-			h2 {
-				font-size: 200%;
-				text-align: center;}
-			p { 
-				font: 150% georgia;
-				margin-top: 0; 
-				text-align: center;
-				margin-left: 150px;
-				margin-right: 150px;
-			}
-			div {
-				display:flex;
-				justify-content:center;
-				align-items:center;
-			}
-			iframe {
-				background-color: #aeaeae;
-			}
-		</style>
-    </head>
+	<head>
+		<title>Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-    <body>
-    	<!-- <h2> Parallel Categories Plot Comparing Voting Frequency With Education and Income </h2>
-		<div><iframe src="categories.html" title="Categories Plot" width=1000 height=600 frameBorder="0"></iframe></div>
-		<br>
-		
-		<p> This plot compares different observations of voters in terms of their <strong>Frequency</strong> , <strong>Education Level</strong>, and <strong>Income</strong>. We are able to see a relationship between voting frequency and income/education. Of the people who always or sporadically vote, they tend to be more educated and be in higher income brackets than those who rarely/never vote. Those who rarely/never vote comprise more of the high school or less education level and subsequently comprise the lower income brackets as well. There is also a relationship between income and education which is independent of voting frequency. Those who are more educated tend to be in higher income brakcts than those who are less educated.  Those with some college experience seem to be fairly evenly dispersed among the income categories, those with college educations tend to have more in the $75-125k and $125K categories, and those with high school educations or less comprise more of the $40-75k and <$40k categories.</p>
-		<br>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-		<h2> Bubble Chart Comparing Percentage of Absentee Voters and Percentage of Voter Turnout </h2>
-		<div><iframe src="bubble.html" title="Bubble plot" width=1000 height=600 frameBorder="0"></iframe></div>
-		<br>
-		<p> This chart allows for comparing across multiple years. Based on the chart, 2020 is noticeably different than the other years. There is a much greater percentage of absentee voters that year due to the COVID-19 pandemic. This realization may have been made clearer by the use of distinct plots for each year, but more plots would have increased data ink. 2016 and 2020 have comparatively higher voter turnouts than the other years. This is due to presidential elections being held during those years, while only congressional elections were held in the other ones. The average turnout percentages for 2016 and 2020 are 74% and 76%, respectively, while the percentages for 2014, 2018, and 2022 are 45%, 68%, and 51%, respectively. </p>
-		<br>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>Visualizing Drug Addiction</h1>
+						<p>An Analysis of Illicit Drug Dependence <br />
+							Varying by U.S. State From 2011 to 2019 <br />
+							By: Michael DeGennaro</p>
+					</header>
 
-		<h2> Chloropleth Map Showing 2022 Voter Turnout Across Virginia </h2>
-		<div><iframe src="map.html" title="Map Plot" width=1000 height=600 frameBorder="0"></iframe></div>
-		<br>
-		<p> This map shows the percentages of voter turnout in all the different counties and cities in Virginia in 2022. Based on the map, there was greater voter turnout in 2022 in Eastern and Northern Virginia than Southern and Western Virginia. Cities tend to have lower turnout rates than counties. There are only 2 cities that fall into the highest turnout category. </p>
-		<br>
-		<br> -->
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">The Visualization</a></li>
+							<li><a href="#second">Reading the Visualization</a></li>
+							<li><a href="#cta">Analysis</a></li>
+							<li><a href="#conclusion">Conclusion</a></li>
+						</ul>
+					</nav>
 
-		<div class='tableauPlaceholder' id='viz1683572402571' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J3&#47;J3F3CJK9X&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;J3F3CJK9X' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J3&#47;J3F3CJK9X&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1683572402571');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-    </body>
+				
+
+				<!-- Main -->
+					<div id="main">
+
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Project Overview</h2>
+										</header>
+										<p>Substance use disorders have affected humanity throughout our existence. For most of written history, there exists anecdotal evidence of drug use. Nowadays, drug use is common, and addiction to certain drugs is a relevant issue. With rapid changes in society and technology, I wonder how drug use has also changed. What I seek to understand are the drug-related trends that may occur over a short period of time. For my project, I am examining the rates of illicit substance dependence in the U.S. from 2011 to 2019 (excluding 2015). I am looking only at adults aged 18 or older. The question I am researching is, “How have illicit substance addiction rates changed in the past 10 years?” Answering this questions may provide insight into the larger national trends of drug use which could be supplemented by deeper research into the reasons why drugs may be used.
+										<br /><br />
+										SAMHSA, the Substance Abuse and Mental Health Services Administration, conducts a National Survey on Drug Use and Health (NSDUH) in which participants from around the United States indicate their afflictions with mental or substance use disorders. One survey they conduct is based on illicit substance dependence. Illicit substance dependence is defined as "the misuse of prescription psychotherapeutics or the use of marijuana, cocaine (including crack), heroin, hallucinogens, inhalants, or methamphetamine. Misuse of prescription psychotherapeutics is defined as use in any way not directed by a doctor, including use without a prescription of one's own; use in greater amounts, more often, or longer than told; or use in any other way not directed by a doctor. Prescription psychotherapeutics do not include over-the-counter drugs."
+										<br /><br />
+										I focus on the data collected from each state within the U.S. I hope this will show national trends as well as regional trends within clusters of states. For each state and each year, an approximation of the number of people out of the total population that are dependent on illicit substances was collected. For a future iteration, it may be better to see the percentage of the state population that may have the affliction (If you are seeign this Professor Willner, I am wondering if this would be a better approach or not for my final submission)
+										</p>
+										<!-- <ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul> -->
+									</div>
+									<!-- <span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
+								</div>
+							</section>
+
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<div class='tableauPlaceholder' id='viz1683572402571' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J3&#47;J3F3CJK9X&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;J3F3CJK9X' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J3&#47;J3F3CJK9X&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                
+								<script type='text/javascript'>                    
+								var divElement = document.getElementById('viz1683572402571');                    
+								var vizElement = divElement.getElementsByTagName('object')[0];                    
+								if ( divElement.offsetWidth > 800 ) 
+									{ vizElement.style.width='1000px';vizElement.style.height='827px';} 
+								else if ( divElement.offsetWidth > 500 ) 
+									{ vizElement.style.width='1000px';vizElement.style.height='827px';} 
+								else { vizElement.style.width='100%';vizElement.style.height='777px';}                     
+								var scriptElement = document.createElement('script');                    
+								scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+								vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+								</script>
+								<!-- <header class="major">
+									<h2>Magna veroeros</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>Ipsum consequat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Amed sed feugiat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Dolor nullam</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>How to Read the Chart</h2>
+									<!-- <p>Main Takeaway: Illicit drug dependence increased from 2011 to 2019, by a lot!</p> -->
+								</header>
+								<!-- <ul class="statistics">
+									<li class="style1">
+										<span class="icon solid fa-code-branch"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon solid fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-gem"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul> -->
+								<p class="content">To examine individual states and their data values for a given year, hover over each one. A tooltip will pop up which contains the relevant information. The information I have chosen to show are <strong>State, Year, Total, Change From the Previous Year,</strong> and <strong>Change From 2011</strong>. You are able to click on a state and select it so that it is highlighted. You can also zoom and pan on the map of the contiguous U.S., not the map of Alaska or Hawaii. To view the different years, go to the <strong>Year</strong> menu and cycle through the years with the arrows or select the year from the dropdown menu.
+								</p>
+								<!-- <footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Analysis</h2>
+									<p>Main Takeaway: Illicit drug dependence increased from 2011 to 2019, by a lot!</p>
+								</header>
+								<p class="content">Across every single state, drug dependence increased. The largest increase from 2011 to 2019 was in the state of Colorado with an increase of <strong>238%</strong>! The smallest increase was 31% in West Vriginia. This is sruprising to me because I know that West Virginia has struggled with drug problems. So, perhaps the usage has always been high, and there hasn't been too much of a substantial increase in recent years.
+								Regionally, there seems to be a large increase in the East compared to the West. In both the Northeast and Southeast, states states substantially increased their drug dependence.</p>
+								<!-- <footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button primary">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+							<!-- Conclusion -->
+							<section id="conclusion" class="main special">
+								<header class="major">
+									<h2>Conclusion</h2>
+									<p>**Will write some closing remarks here.**</p>
+								</header>
+								<!-- <p class="content">Across every single state, drug dependence increased. The largest increase from 2011 to 2019 was in the state of Colorado with an increase of <strong>238%</strong>! The smallest increase was 31% in West Vriginia. This is sruprising to me because I know that West Virginia has struggled with drug problems. So, perhaps the usage has always been high, and there hasn't been too much of a substantial increase in recent years.
+								Regionally, there seems to be a large increase in the East compared to the West. In both the Northeast and Southeast, states states substantially increased their drug dependence.</p> -->
+								<!-- <footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button primary">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section> -->
+						<!-- <section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section> -->
+						<p class="copyright">&copy; CSS Template Design From: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
