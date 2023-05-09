@@ -1,2 +1,2 @@
 # DataVizFinalProject
-This repo houses my final project for Data Visualization (DATA 303). Click on the Pages link to access the webpage with the tableau dashboard and analysis of the data.
+This repo houses my final project for Data Visualization (DATA 303). To view the final project, visit: https://msdege.github.io/DataVizFinalProject/
